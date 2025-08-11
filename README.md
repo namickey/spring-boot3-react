@@ -38,9 +38,12 @@ npm create vite@latest
 ```
 インストール
 npm install
+npm install @reduxjs/toolkit react-redux
 
 開発サーバ起動
 npm run dev
+
+http://localhost:5173/
 ```
 
 ```
@@ -50,3 +53,10 @@ npm run build
 プレビュー
 npm run preview
 ```
+
+> [!NOTE]  
+> 
+> https://redux.js.org/introduction/getting-started  
+> 
+> Redux入門者向け初めてのRedux ToolkitとRedux Thunkの非同期処理  
+> https://reffect.co.jp/react/redux-toolkit  
