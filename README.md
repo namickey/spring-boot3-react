@@ -23,9 +23,14 @@ mvnw.cmd spring-boot:run
 http://localhost:8080/
 ```
 
+## only spring-boot
+
+```
+http://localhost:8080/swagger-ui/index.html
+```
 
 
-## frontend only
+## only frontend
 ```
 npm create vite@latest
 ```
