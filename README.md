@@ -58,5 +58,8 @@ npm run preview
 > 
 > https://redux.js.org/introduction/getting-started  
 > 
+> Redux ToolkitでReact開発を効率化するテクニック完全ガイド  
+> https://ittrip.xyz/react/react-redux-toolkit-efficiency-tips  
+> 
 > Redux入門者向け初めてのRedux ToolkitとRedux Thunkの非同期処理  
 > https://reffect.co.jp/react/redux-toolkit  
