@@ -6,15 +6,11 @@ export const counterSlice = createSlice({
         count: 0,
     },
     reducers: {
-        increase: (state) => {
-            state.count += 1
-        },
-        decrease: (state) => {
-            state.count -= 1
-        },
+        increment: (state) => {state.count += 1},
+        decrement: (state) => {state.count -= 1},
+        reset: (state) => {state.count = 0},
     },
 })
 
-export const { increase, decrease } = counterSlice.actions
-
+export const { increment, decrement, reset } = counterSlice.actions
 export default counterSlice.reducer
